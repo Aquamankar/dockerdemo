@@ -9,6 +9,6 @@ public class democontroller {
 
       @GetMapping("/hotels")
     public  String getMessage(){
-        return "hello world jenkins";
+        return "hello world jenkins doccker";
     }
 }
