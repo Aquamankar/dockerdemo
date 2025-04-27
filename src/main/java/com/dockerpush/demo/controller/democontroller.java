@@ -11,4 +11,9 @@ public class democontroller {
     public  String getMessage(){
         return "hello world jenkins doccker";
     }
+
+        @GetMapping("/")
+    public  String getMessagedefault(){
+        return "hello world jenkins doccker default";
+    }
 }
